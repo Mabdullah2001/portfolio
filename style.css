@@ -1,0 +1,85 @@
+
+body{
+    /* background-color: rgba(240, 255, 255, 0.185); */
+    background-color:transparent;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: auto 100px;
+    
+}
+.container div {
+    width: 50%;
+}
+.content h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+.content h1 span{
+    color: blue;
+    opacity: 0.5;
+
+
+}
+a {
+    text-decoration: none;
+}
+.content a.btn{
+    background-color: blue;
+    opacity: 0.5;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+
+}
+body {
+    text-align: left;
+  }
+  
+  /* When the message is sent successfully alert will be displayed
+  .alert {
+    text-align: center;
+    padding: 10px;
+    background: #79c879;
+    color: #fff;
+    margin-bottom: 5vh;
+    display: none;
+  }  */
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto 100px;
+    
+}
+.left p span{
+    color: blue;
+    font-weight: bolder;
+    font-size: 1em;
+    opacity: 0.5;
+ 
+}
+
+.left{
+    
+    
+     font-size: 25px;
+     width: 600px;
+     text-align: -webkit-auto;
+     font-family: sans-serif;
+     
+ }
+ .head{
+    color: blue;
+    font-weight: bolder;
+    font-size: 1em;
+    opacity: 0.5;
+
+ }
+ .circular--square { border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; }
